@@ -1,0 +1,36 @@
+{
+"h":"help",
+"f":" -footer \"Stonetop Lookup by Squidswell#6584 based on work by Marcus#3244\" -color 4d97c4 -thumb https://cdn.discordapp.com/attachments/829185108157530152/829936258565668954/stonetop.png",
+"g":{
+"moves":["9eab85b5-a10f-447c-9b16-8b35f1a1b2c1"],
+"tags":["009606a2-7c11-435d-8ea0-1c76f386ce64"],
+"arcana":["6b765853-b407-4d32-8f3b-b6cebed7f925","df285f0a-6829-4ab4-8038-8741ede50036"],
+"gm":["68e4edc6-d1e6-4cae-b93a-9ceae98a7689"],
+"players":["b96e4a73-f9d5-4bd4-9096-55cf208fabbe"],
+"steading":[""],
+"playbooks":[""]
+},
+"a":{
+"help?":{
+"help":"-title \"Stonetop Lookup Alias\" -desc \"This is a lookup alias for various aspects of Stonetop.\nIf you notice any typos, broken formatting, or feel that something is missing, please contact me @Squidswell#6584.\" -f \"Subcommands:|`!st help`|`?` - Shows this message\n \n`!st moves` - View the list of available Basic, Special, and core playbook moves\n \n`!st tags` - View the list of available item and monster tags\n\n`!st arcana` - View the list of available major and minor arcana from the core rulebook\n\n`!st playbooks` - View the list of available core playbooks/classes\n\n`!st gm` - View the list of available GM-centric information such as their Principles, Agenda, Moves, etc\n\n`!st players` - View the list of available player information such as their Principles and Agenda\n\n`!st steading` - View the list of available improvements to Stonetop from the steading playbook\" -f \"Sources:|[Stonetop](https://www.kickstarter.com/projects/1735046512/stonetop/) by Jeremy Strandberg and Jason Lutes\""
+},
+"moves":{
+"help":"-title \"Stonetop Moves\" -desc \"Look up moves from the core rulebook.\n\nTo see a list of the moves available you can view the moves in each category below by specifying it in the command (e.g. `!st move blessed`)\n\n`Basic\nSpecial\nFollower\nExpedition\nHomestead\nBlessed\nFox\nHeavy\nJudge\nLightbearer\nMarshal\nRanger\nSeeker\nWould-Be Hero\nRevenant\nGhost\nThrall`\""
+},
+"tags":{
+"help":"-title \"Stonetop Tags\" -desc \"Look up tags from the core rulebook.\n\nView the details of a specific tag by specifying it in the command (e.g. `!st tag area`)\" -f \"Item Tags|`Area\nn Armor\n+n Armor\nAwkward\nClumsy\nCrude\n+n Damage\nDangerous\nForceful\nImmobile\nMessy\nx Piercing\nReload\nRequires x\nSlow\nThrown\nWarm\nHand\nClose\nReach\nNear\nFar`\" -f \"Monster Tags|`Horde\nGroup\nSolitary\nTiny\nSmall\nLarge\nHuge\nSpirit\nFae\nConstruct\nPlanar\nUndead\nHoarder\nCautious\nCunning\nTerrifying\nStealthy\nMagical\nOrganized`\""
+},
+"arcana":{
+"help":"-title \"Stonetop Arcana\" -desc \"View the details of a specific arcana by specifying it in the command (e.g. `!st arcana twistedspear`)\nThis will list the main information of an arcana.\nYou can look at the moves of major arcana by adding `moves` to the end.\nYou can look at the consequences of major arcana by adding `cons` to the end.\nYou can look at the clues to unlocking a minor arcana by adding `clues` to the end.\n\nThe names of many of the arcana are long, but this will return the entry if you give it part of the name\" -f \"Minor Arcana|`Aalz Galt’s Sudden Sinkhole\nOld Mother’s Wine\nTruth Seeds\nId’n Otez’s Galvanic Infusion\nThe Tomb-Bog’s Mark\nThe Fiery Veil\nThunderous Bellow\nShell Game of Souls\nFfyrnig Tonic\nShattering Words of Aalz Childric\nMantle Wraiths\nFear of the Flame\nThe Six Locks of Sajua\nDark Ice Prison\nWard of Still Waters\nSong of the Dool Trees\nOpening the Way\nGoldleaf Cloak\nNerth Serpent’s Vigor\nHelior’s Shining Ring\nThe Eye, Opened\nPeacebond\nPreserving Runes\nThe Drowning Scale\nThe Sylvan Web\nChimeric Transmogrification\nThe Green Lord’s Shade\nSanctifying Mark\nCall of the Hunt\nDancing Wind Spirit\nSatchel of Plenty\nFlying Cloak\nConvocation of the Soil`\n\n**Major Arcana**\n`Staff of the Lidless Orb\nTwisted Spear\nDemonhide Cloak\nNoruba’s Ice Sphere\nMindgem\nWhispering Rocks\nBlood-Quenched Sword\nShield of the Wisent Witch\nHectumel Codex\nRed Scepter\nRing of Daagon\nRune-Laden Scales\nBlackwood Fetishes\nStorm Markings\nIneffable Words\nRedwood Effigy\nHungering Maw of Hlad\nAzure Hand`\""
+},
+"gm":{
+	"help":"-title \"GMing Stonetop\" -desc \"Look up various tables and information for GMing Stonetop\n\nYou can see a list of information avalible in each category by specifying it in the command (e.g. `!st gm content`)\n\n**GM Basics**\n`content\nagenda\ncoreloop\nprinciples\nmoves`\n\n**Rules**\n`damage\nrecover\npersuade\nmakeaplan\nexpeditions`\n\n**Random Tables**\n`npcs\ndiscoveries\nhazards`\n\n**About the World**\n`homefront\ntraveltimes\nrelativevalue`\""
+},
+"players":{
+	"help":"-title \"Playing Stonetop\" -desc \"As players of Stonetop you have responsibilties to make the game fun and compeling as well. Here you can look up information for Playing Stonetop\n\nYou can see the information avalible in each category by specifying it in the command (e.g. `!st players content`)\n\n`agenda\nprinciples\ncontent`\""
+},
+"steading":{
+	"help":"-title \"Steading Improvements\" -desc \"These are the improvements to Stonetop that are shown in the Steading Playbook. More may be made by the GM. Here you can look up the details of each of these improvements (e.g. `!st steading palisade`)\n\n`aurochshunting\nexpandedhousing\ndivertingthestream\nfarreachingreputation\ngreaterharvest\nherdofhorses\nrainwatercollection\ninn\nmarketplace\nmill\npalisade\nstonewall\ntownship\nweaponsofwar\nwelltrainedmilita`\""
+}
+}
+}
