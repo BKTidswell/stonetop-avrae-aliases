@@ -1,3 +1,16 @@
+#The main st alias
+!alias st embed {{i="&*&".lower().replace(":","").replace('"','').split()}}
+{{g=load_json(get_gvar("50b53657-004e-4cd6-891d-69b1ddb5d4ed"))}}
+{{o=i[0] if i else g.h}}
+{{[[g.a[y].update(load_json(get_gvar(x))) for x in g.g[y]] for y in g.g if o in y]}}
+{{k=[x for x in g.a if o in x]}}
+{{c=g.a[(k+[g.h+'?'])[0]]}}
+{{rk=[x for x in g.a if i and i[0] in g.a[x].help.lower()]}}
+{{f' -f """Hey!|Did you mean !dw {rk[0]} {i[0]}?"""' if rk and not k else ''}}
+{{k=[x for x in c if len(i)>1 and all([y in x for y in i[1:]])]}}
+{{c[k[0]if k else g.h]}}
+{{g.f}}
+
 
 #Sets the stat of choice
 !servalias setstat embed
